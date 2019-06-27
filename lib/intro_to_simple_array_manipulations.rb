@@ -1,7 +1,18 @@
-using_push
-using_unshift
-using_pop
-pop_with_args
+def using_push(array, string)
+  array.push(string)
+end
+
+def using_unshift(array, string)
+  array.unshift(string)
+end
+
+def using_pop(array)
+  array.pop
+end
+
+def pop_with_args(array)
+  array.pop(2)
+end
 using_shift
 shift_with_args
 using_concat
@@ -9,3 +20,4 @@ using_insert
 using_uniq
 using_flatten
 using_delete
+using_delete_at
