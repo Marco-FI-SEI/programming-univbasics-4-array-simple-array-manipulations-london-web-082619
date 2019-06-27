@@ -7,3 +7,4 @@ shift_with_args
 using_concat
 using_insert
 using_uniq
+using_flatten
