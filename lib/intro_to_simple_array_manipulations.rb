@@ -13,8 +13,12 @@ end
 def pop_with_args(array)
   array.pop(2)
 end
-using_shift
-shift_with_args
+
+def using_shift(array)
+  array.shift(2)
+end
+
+def shift_with_args(array)
 using_concat
 using_insert
 using_uniq
